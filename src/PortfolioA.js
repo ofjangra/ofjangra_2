@@ -8,7 +8,7 @@ const PortfolioA = () => {
            <h2>Projects</h2>
          </div>
          <img src = "./img/underDevelopment.svg" alt ="under development"></img>
-         <strong>Data will be update soon.</strong>
+         <strong>Projects are under construction</strong>
           </div>
       </>
   );
