@@ -1,0 +1,82 @@
+.contactMain{
+    height: 100vh;
+    min-height: 682px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Ctitle{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    
+    font-family: OutfitRegular
+}
+.Ctitle h3{
+    font-size: 3.5rem;
+}
+form{
+    height: 80%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--primary-white);
+    font-family: poppinsLight;
+    /* background-color: aqua; */
+}
+
+
+.formControl{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.formControl label{
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+}
+.formControl input{
+    height: 40px;
+    width: 380px;
+    border-radius: 2px;
+    padding: 4px;
+    margin-bottom: 5px;
+    font-family: poppinsLight;
+    border: none;
+    /* background-color: aliceblue; */
+}
+.errMsg{
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: aqua; */
+}
+.formControl textarea{
+    height: 120px;
+    width: 380px;
+    border-radius: 2px;
+    font-family: poppinsLight;
+    border: none;
+}
+form button{
+    height: 36px;
+  width: 180px;
+  border: none;
+  background-color: var(--primary-btn);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: poppinsLight;
+  font-size: 1rem;
+  color: #000000;
+}

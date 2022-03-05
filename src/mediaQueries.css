@@ -1,0 +1,73 @@
+@media only screen and (max-width: 480px){
+nav{
+    height: 7vh;
+    width: 100%;
+    position: sticky;
+    top:0;
+    left: 0;
+    background-color: #0e1b22;
+
+}
+.intro{
+    /* display: none; */
+}
+.links{
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    margin: 0;
+}
+.backFixed{
+    top:7vh;
+}
+.main{
+    padding:0 20px 0 20px;
+    overflow-x: hidden;
+}
+.aboutContainer{
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+.heroImg{
+    height: 40%;
+    width: 100%;
+}
+.heroImg img{
+    height: 100%;
+    width: auto;
+}
+.aboutText{
+    width: 100%;
+    height: 50%;
+}
+.portfolioAMain {
+    padding: 0;
+}
+.contactMain{
+    flex-direction: column;
+    padding: 0;
+    /* display: none; */
+}
+.Ctitle{
+    width: 100%;
+    height: auto;
+    text-align: center;
+ 
+}
+form{
+    height: 70%;
+    width: 100%;
+}
+.formControl{
+    width: 100%;
+}
+.formControl input{
+    width: 100%;
+}
+.formControl textarea{
+    width: 100%;
+}
+.errMsg{
+    width: 100%;
+}
+}

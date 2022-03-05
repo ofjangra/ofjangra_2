@@ -1,0 +1,23 @@
+nav{
+  height: 50vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top:0;
+  right: 0;
+}
+.links{
+  height: 80%;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--primary-btn);
+  margin:20px;
+}
+.links *{
+  cursor: pointer;
+}
