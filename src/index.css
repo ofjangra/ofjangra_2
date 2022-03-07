@@ -1,14 +1,15 @@
-nav{
+nav {
   height: 50vh;
   width: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   position: fixed;
-  top:0;
+  top: 0;
   right: 0;
+  z-index: 10;
 }
-.links{
+.links {
   height: 80%;
   width: auto;
   display: flex;
@@ -16,8 +17,107 @@ nav{
   align-items: center;
   justify-content: space-around;
   color: var(--primary-btn);
-  margin:20px;
+  margin: 20px;
 }
-.links *{
+.links * {
   cursor: pointer;
+}
+
+.pbMain {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.pbMainHeader {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.pbMainHeader h2 {
+  font-family: dmSansMed;
+  color: #ffffff;
+  font-size: 4rem;
+}
+.pbMainHeader strong {
+  font-family: GIRegular;
+  font-size: 1.2rem;
+  color: var(--primary-white);
+}
+.dif {
+  height: 80%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.serviceContainer {
+  height: auto;
+  min-height: 220px;
+  margin-bottom: 50px;
+
+  background-color: #1e2325;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.scHeader {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  position: relative;
+}
+.serviceIcon {
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  color: #000000;
+  background-color: var(--primary-btn);
+
+  margin-left: 20px;
+  position: absolute;
+  top: -20px;
+}
+.scHeader strong {
+  font-family: GIRegular;
+  font-size: 1.2rem;
+  color: var(--primary-white);
+  margin-left: 20px;
+  position: absolute;
+  bottom: 0;
+  font-family: dmSansRegular;
+}
+
+.serviceText {
+  margin-top: 10px;
+  height: auto;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  color: var(--primary-whiite);
+  font-family: GIRegular;
+  color: #ffffff;
+  text-align: justify;
+}
+.serviceText p {
+  font-size: 1.15rem;
 }

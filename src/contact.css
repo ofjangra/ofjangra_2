@@ -1,82 +1,84 @@
-.contactMain{
-    height: 100vh;
-    min-height: 682px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.contactMain {
+  height: 100vh;
+  min-height: 682px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.Ctitle{
-    height: 100%;
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    
-    font-family: OutfitRegular
+.Ctitle {
+  height: 100%;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: #ffffff;
+  font-family: dmSansMed;
 }
-.Ctitle h3{
-    font-size: 3.5rem;
+.Ctitle strong {
+  font-family: GIRegular;
+  font-size: 1.2rem;
+  color: var(--primary-white);
 }
-form{
-    height: 80%;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    color: var(--primary-white);
-    font-family: poppinsLight;
-    /* background-color: aqua; */
+.Ctitle h3 {
+  font-size: 3.5rem;
 }
-
-
-.formControl{
-    height: auto;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
+form {
+  height: 580px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  color: var(--primary-white);
+  font-family: GIRegular;
 }
 
-.formControl label{
-    font-size: 1.05rem;
-    margin-bottom: 10px;
+.formControl {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
 }
-.formControl input{
-    height: 40px;
-    width: 380px;
-    border-radius: 2px;
-    padding: 4px;
-    margin-bottom: 5px;
-    font-family: poppinsLight;
-    border: none;
-    /* background-color: aliceblue; */
+
+.formControl label {
+  font-size: 1.05rem;
+  margin-bottom: 10px;
 }
-.errMsg{
-    width: 380px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    /* background-color: aqua; */
+.formControl input {
+  height: 40px;
+  width: 380px;
+  border-radius: 2px;
+  padding: 4px;
+  margin-bottom: 5px;
+  font-family: GIRegular;
+  border: none;
 }
-.formControl textarea{
-    height: 120px;
-    width: 380px;
-    border-radius: 2px;
-    font-family: poppinsLight;
-    border: none;
+.errMsg {
+  width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
-form button{
-    height: 36px;
+.formControl textarea {
+  height: 120px;
+  width: 380px;
+  border-radius: 2px;
+  font-family: GIRegular;
+  border: none;
+}
+form button {
+  height: 36px;
   width: 180px;
   border: none;
   background-color: var(--primary-btn);
   border-radius: 4px;
   cursor: pointer;
-  font-family: poppinsLight;
+  font-family: GIRegular;
   font-size: 1rem;
+  color: #0c0e0f;
   color: #000000;
 }

@@ -2,6 +2,9 @@ import React from "react";
 import {useFormik} from "formik"
 import * as Yup from "yup";
 import emailjs from "emailjs-com";
+
+
+
 let Contact = () =>{
   
   let formik = useFormik({
@@ -37,6 +40,8 @@ formik.values.name = ''
     <div className = "Ctitle">
         <h3>Drop a
           <br/> Message</h3>
+          <storng>...let's talk</storng>
+          
     </div>
 <form onSubmit = {formik.handleSubmit , sendEmail}>
 

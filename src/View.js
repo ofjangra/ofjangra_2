@@ -4,6 +4,7 @@ import Intro from './Intro';
 import PortfolioA from './PortfolioA';
 import {Contact} from './Contact'
 import Footer from './Footer';
+import PortB from './PortB';
 const View = () => {
   return(
     <>
@@ -12,8 +13,11 @@ const View = () => {
     </div>
       <div className='main'>
         <Intro/>
-        <About />
+        
+       
+        <PortB/>
         <PortfolioA/>
+        <About />
         <Contact/>
         <Footer/>
       </div>

@@ -12,7 +12,7 @@ const About = () => {
           
           <div className="aboutText" id = "about">
           
-     
+         
             <p>
               Hi, I am Naresh Jangra. I am a front-end developer, based in Haryana. From alomost two
               years I have been continuesly learning, and practicing web technologies.
