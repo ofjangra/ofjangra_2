@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 const About = () => {
   return (
     <>
-      <div className="aboutMain">
+      <div className="aboutMain" id = "about">
       <h2>about</h2>
         <div className="aboutContainer">
           <div className="heroImg">
