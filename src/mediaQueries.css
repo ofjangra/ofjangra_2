@@ -1,66 +1,95 @@
-@media screen and (max-width: 930px) {
+@media screen and (max-width:930px){
+  .main{
+    padding: 0 80px 0 80px;
+  }
+  .introText h1{
+    font-size: 4rem;
+  }
+  .aboutMain h2{
+    font-size: 4rem;
+  }
+  .heroImg img{
+    height: 340px;
+  }
+}
+
+
+
+@media screen and (max-width: 800px) {
   .main {
     padding: 0 60px 0 60px;
   }
   .pbMain {
     flex-direction: column;
+    align-items: center;
     justify-content: space-around;
+  }
+  .pbMainHeader{
+    height: auto;
+    width: 100%;
+    align-items: center;
   }
   .dif {
-    align-items: center;
-    width: 80%;
-  }
-  .pbMainHeader {
+    height: 80%;
     width: 100%;
-    height: auto;
     align-items: center;
   }
+
   .aboutContainer {
-    flex-direction: column;
-    justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   }
-  .heroImg {
+  .heroImg{
+    height: 60%;
+    width: 100%;
+    align-items: center;
     justify-content: center;
   }
+  .heroImg img{
+    height: 320px;
+    width: auto;
+  }
+  .aboutText{
+    width: 100%;
+  }
 
-  .aboutText {
-    margin-top: 20px;
-    width: 80%;
-  }
-  .aboutText button {
-    margin-top: 20px;
-  }
+
+  
   .portfolioAMain {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+   flex-direction: column;
+   justify-content: space-around;
   }
   .pamHeader {
-    width: 100%;
-    height: auto;
-    align-items: center;
-    text-align: center;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
   }
-  .iconsGrid {
-    width: 320px;
-  }
+
   .contactMain {
-    flex-direction: column;
-    justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   }
   .Ctitle {
-    width: 100%;
-    height: auto;
-    align-items: center;
-    text-align: center;
+   height: auto;
+   width: 100%;
+   align-items: center;
+   text-align: center;
   }
   form {
-    width: 80%;
-    align-items: center;
+  width: 100%;
+  align-items: center;
   }
+
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 620px) {
+
+
+  /* ----------------- NAV ------------------*/
   nav {
     height: 7vh;
     width: 100%;
@@ -80,7 +109,7 @@
     top: 7vh;
   }
   .main {
-    padding: 0 20px 0 20px;
+    padding: 0 40px 0 40px;
     overflow-x: hidden;
   }
   /* ------------------------------ intro ------------*/
@@ -88,6 +117,158 @@
     font-family: dmSansRegular;
     font-weight: lighter;
     font-size: 3.2rem;
+  }
+  
+  
+
+  /*------------------------------ ABOUT -------------------*/
+  .aboutContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .heroImg {
+    height: 60%;
+    width: auto;
+    justify-content: center;
+  }
+  .heroImg img{
+    height: 80%;
+  }
+  .aboutMain h2 {
+    font-family: dmSansRegular;
+    font-weight: lighter;
+    font-size: 2.8rem;
+  }
+  .aboutText {
+    width: 100%;
+    height: 50%;
+  }
+ 
+  .aboutText p{
+    font-size: 1.05rem;
+  }
+  /*--------------------------------- Services -----------------------*/
+
+  .pbMain {
+    flex-direction: column;
+  }
+  .pbMainHeader {
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  .pbMainHeader h2 {
+    font-family: dmSansRegular;
+    font-weight: lighter;
+    font-size: 2.8rem;
+  }
+  .dif {
+    width: 100%;
+    align-items: center;
+  }
+
+  .serviceContainer {
+    width: 100%;
+  }
+
+  .portfolioAMain {
+    padding: 0;
+    flex-direction: column;
+  }
+  .pamHeader{
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  .pamHeader h2 {
+    font-family: dmSansRegular;
+    font-weight: lighter;
+    font-size: 2.8rem;
+    text-align: center;
+  }
+  .contactMain {
+    flex-direction: column;
+    padding: 0;
+  }
+  .Ctitle {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+  }
+  .Ctitle h3 {
+    font-family: dmSansRegular;
+    font-weight: lighter;
+    font-size: 2.8rem;
+  }
+  form {
+    height: 70%;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .formControl {
+    width: 100%;
+  }
+  .formControl input {
+    width: 100%;
+  }
+  .formControl textarea {
+    width: 100%;
+  }
+  .errMsg {
+    width: 100%;
+  }
+
+  .socialLinks{
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+/* ----------------- NAV ------------------*/
+
+  nav {
+    height: 7vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #0e1b22;
+  }
+
+  .links {
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    margin: 0;
+  }
+  .backFixed {
+    top: 7vh;
+  }
+  .main {
+    padding: 0 12px 0 12px;
+    overflow-x: hidden;
+  }
+  /* ------------------------------ intro ------------*/
+  .introText h1 {
+    font-family: dmSansRegular;
+    font-weight: lighter;
+    font-size: 2.8rem;
+  }
+  .introText strong{
+    font-size: 1.02rem;
   }
   .aboutContainer {
     flex-direction: column;
@@ -101,10 +282,14 @@
     width: 100%;
     justify-content: center;
   }
+  .heroImg img{
+    height: 80%;
+    width: auto;
+  }
   .aboutMain h2 {
     font-family: dmSansRegular;
     font-weight: lighter;
-    font-size: 3.2rem;
+    font-size: 2.5rem;
   }
   .heroImg img {
     height: 100%;
@@ -113,6 +298,10 @@
   .aboutText {
     width: 100%;
     height: 50%;
+    align-items: center;
+  }
+  .aboutText p{
+    font-size: 1rem;
   }
 
   /*--------------------------------- Services -----------------------*/
@@ -128,7 +317,10 @@
   .pbMainHeader h2 {
     font-family: dmSansRegular;
     font-weight: lighter;
-    font-size: 3.2rem;
+    font-size: 2.5rem;
+  }
+  .pbMainHeader strong{
+    font-size: 1.02rem;
   }
   .dif {
     width: 100%;
@@ -138,28 +330,89 @@
   .serviceContainer {
     width: 100%;
   }
+  .serviceIcon{
+    height: 36px;
+    width: 36px;
+    padding:4px;
+    border-radius: 18px;
+  }
+  .serviceIcon{
+    margin-left: 12px;
+  }
+  .scHeader strong{
+    margin-left: 12px;
+    font-size: 1.02rem;
+  }
+  .serviceText{
+    padding:10px;
+  }
+  .serviceText p{
+    font-size: 1rem;
+  }
+
+
+
+
+
+/* ----------------- Tech Stack ------------------*/
+
+
 
   .portfolioAMain {
     padding: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .pamHeader{
+    height: auto;
+    width: 100%;
+    align-items: center;
+
   }
   .pamHeader h2 {
     font-family: dmSansRegular;
     font-weight: lighter;
-    font-size: 3.2rem;
+    font-size: 2.5rem;
+    text-align: center;
   }
+  .pamHeader strong{
+    font-size: 1.02rem;
+  }
+
+  .iconsGrid{
+    height: 320px;
+    width: 320px;
+  }
+  .iconCover{
+    height: 60px;
+    width: 60px;
+  }
+
+
+
+/* ----------------- Contact ------------------*/
+
+
+
   .contactMain {
     flex-direction: column;
     padding: 0;
+    justify-content: space-around;
   }
   .Ctitle {
     width: 100%;
     height: auto;
+    align-items: center;
     text-align: center;
   }
   .Ctitle h3 {
     font-family: dmSansRegular;
     font-weight: lighter;
-    font-size: 3.2rem;
+    font-size: 2.5rem;
+  }
+  .Ctitle strong{
+    font-size: 1.02rem;
   }
   form {
     height: 70%;
@@ -175,6 +428,9 @@
     width: 100%;
   }
   .errMsg {
+    width: 100%;
+  }
+  .socialLinks{
     width: 100%;
   }
 }
