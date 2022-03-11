@@ -11,17 +11,17 @@
 }
 
 @font-face {
-  font-family: GIRegular;
-  src: url("./fonts/glacial-indifference/GlacialIndifference-Regular.otf");
-}
-@font-face {
-  font-family: dmSansMed;
-  src: url("./fonts/DMSans/DMSans-Medium.ttf");
-}
-@font-face {
   font-family: dmSansRegular;
   src: url("./fonts/DMSans/DMSans-Regular.ttf");
 }
+@font-face {
+  font-family: QuestrialRegular;
+  src: url("./fonts/Questrial/Questrial-Regular.ttf");
+}
+/* @font-face {
+  font-family: dmSansRegular;
+  src: url("./fonts/Questrial/Questrial-Regular.ttf");
+} */
 
 .backFixed {
   height: 100vh;
@@ -68,12 +68,12 @@
 }
 
 .introText strong {
-  font-family: GIRegular;
+  font-family: dmSansRegular;
   align-self: flex-start;
   font-size: 1.2rem;
 }
 .introText h1 {
-  font-family: dmSansMed;
+  font-family: QuestrialRegular;
   font-size: 4.2rem;
 }
 
@@ -91,7 +91,7 @@
   color: var(--font-primary);
   text-transform: capitalize;
   font-size: 4.2rem;
-  font-family: dmSansMed;
+  font-family: QuestrialRegular;
   font-weight: bold;
 }
 .aboutContainer {
@@ -112,7 +112,7 @@
 }
 
 .heroImg img {
-  height: 380px;
+  height: 420px;
   width: auto;
   object-fit: cover;
 
@@ -130,7 +130,7 @@
   justify-content: space-around;
   text-align: justify;
   color: var(--primary-white);
-  font-family: GIRegular;
+  font-family: dmSansRegular;
 }
 
 .aboutText p {
@@ -145,7 +145,7 @@
   background-color: var(--primary-btn);
   border-radius: 4px;
   cursor: pointer;
-  font-family: GIRegular;
+  font-family: dmSansRegular;
   font-size: 1rem;
   color: #000000;
 }
@@ -168,12 +168,12 @@
   justify-content: center;
 }
 .pamHeader h2 {
-  font-family: dmSansMed;
+  font-family: QuestrialRegular;
   font-size: 4.2rem;
   color: var(--primary-white);
 }
 .pamHeader strong {
-  font-family: GIRegular;
+  font-family: dmSansRegular;
   font-size: 1.2rem;
   color: var(--primary-white);
 }
@@ -230,7 +230,42 @@
   color: var(--primary-btn);
 }
 .footerMain p {
-  font-family: GIRegular;
+  font-family: dmSansRegular;
   font-size: 1.05rem;
   color: var(--primary-white);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

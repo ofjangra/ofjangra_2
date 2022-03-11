@@ -40,7 +40,7 @@ formik.values.name = ''
     <div className = "Ctitle">
         <h3>Drop a
           <br/> Message</h3>
-          <storng>...let's talk</storng>
+          <strong>...let's talk</strong>
           
     </div>
 <form onSubmit = {formik.handleSubmit , sendEmail}>

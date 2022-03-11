@@ -28,7 +28,7 @@ const PortB = () =>{
                        I create front-end applications which are fast,
                        SEO friendly,
                        and responsive.
-                       For the non-React JS apps I use webpack for light-weight,
+                       For the non-React JS apps I use webpack to create light-weight and
                        production-ready builds. 
                        </p>
                        

@@ -14,10 +14,10 @@
   align-items: flex-start;
   justify-content: center;
   color: #ffffff;
-  font-family: dmSansMed;
+  font-family: QuestrialRegular;
 }
 .Ctitle strong {
-  font-family: GIRegular;
+  font-family: dmSansRegular;
   font-size: 1.2rem;
   color: var(--primary-white);
 }
@@ -32,7 +32,7 @@ form {
   align-items: flex-end;
   justify-content: space-around;
   color: var(--primary-white);
-  font-family: GIRegular;
+  font-family: dmSansRegular;
 }
 
 .formControl {
@@ -54,7 +54,7 @@ form {
   border-radius: 2px;
   padding: 4px;
   margin-bottom: 5px;
-  font-family: GIRegular;
+  font-family: dmSansRegular;
   border: none;
 }
 .errMsg {
@@ -67,7 +67,7 @@ form {
   height: 120px;
   width: 380px;
   border-radius: 2px;
-  font-family: GIRegular;
+  font-family: dmSansRegular;
   border: none;
 }
 form button {
@@ -77,8 +77,36 @@ form button {
   background-color: var(--primary-btn);
   border-radius: 4px;
   cursor: pointer;
-  font-family: GIRegular;
+  font-family: dmSansRegular;
   font-size: 1rem;
   color: #0c0e0f;
   color: #000000;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
