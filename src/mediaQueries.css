@@ -114,8 +114,6 @@
   }
   /* ------------------------------ intro ------------*/
   .introText h1 {
-    font-family: dmSansRegular;
-    font-weight: lighter;
     font-size: 3.2rem;
   }
   
@@ -137,8 +135,6 @@
     height: 80%;
   }
   .aboutMain h2 {
-    font-family: dmSansRegular;
-    font-weight: lighter;
     font-size: 2.8rem;
   }
   .aboutText {
@@ -160,8 +156,6 @@
     align-items: center;
   }
   .pbMainHeader h2 {
-    font-family: dmSansRegular;
-    font-weight: lighter;
     font-size: 2.8rem;
   }
   .dif {
@@ -183,8 +177,6 @@
     align-items: center;
   }
   .pamHeader h2 {
-    font-family: dmSansRegular;
-    font-weight: lighter;
     font-size: 2.8rem;
     text-align: center;
   }
@@ -199,8 +191,6 @@
     text-align: center;
   }
   .Ctitle h3 {
-    font-family: dmSansRegular;
-    font-weight: lighter;
     font-size: 2.8rem;
   }
   form {
@@ -263,8 +253,6 @@
   }
   /* ------------------------------ intro ------------*/
   .introText h1 {
-    font-family: dmSansRegular;
-    font-weight: lighter;
     font-size: 2.8rem;
   }
   .introText strong{
@@ -287,8 +275,6 @@
     width: auto;
   }
   .aboutMain h2 {
-    font-family: dmSansRegular;
-    font-weight: lighter;
     font-size: 2.5rem;
   }
   .heroImg img {
@@ -315,8 +301,6 @@
     align-items: center;
   }
   .pbMainHeader h2 {
-    font-family: dmSansRegular;
-    font-weight: lighter;
     font-size: 2.5rem;
   }
   .pbMainHeader strong{
@@ -371,8 +355,6 @@
 
   }
   .pamHeader h2 {
-    font-family: dmSansRegular;
-    font-weight: lighter;
     font-size: 2.5rem;
     text-align: center;
   }
@@ -407,8 +389,6 @@
     text-align: center;
   }
   .Ctitle h3 {
-    font-family: dmSansRegular;
-    font-weight: lighter;
     font-size: 2.5rem;
   }
   .Ctitle strong{
