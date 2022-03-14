@@ -92,6 +92,7 @@
   /* ----------------- NAV ------------------*/
   nav {
     height: 7vh;
+    min-height: 50px;
     width: 100%;
     position: sticky;
     top: 0;
@@ -115,6 +116,7 @@
   /* ------------------------------ intro ------------*/
   .introText h1 {
     font-size: 3.2rem;
+    font-weight: lighter;
   }
   
   
@@ -136,6 +138,7 @@
   }
   .aboutMain h2 {
     font-size: 2.8rem;
+    font-weight: lighter;
   }
   .aboutText {
     width: 100%;
@@ -157,6 +160,7 @@
   }
   .pbMainHeader h2 {
     font-size: 2.8rem;
+    font-weight: lighter;
   }
   .dif {
     width: 100%;
@@ -179,6 +183,7 @@
   .pamHeader h2 {
     font-size: 2.8rem;
     text-align: center;
+    font-weight: lighter;
   }
   .contactMain {
     flex-direction: column;
@@ -192,11 +197,12 @@
   }
   .Ctitle h3 {
     font-size: 2.8rem;
+    font-weight: lighter;
   }
   form {
     height: 70%;
     width: 100%;
-    align-items: flex-start;
+    align-items: center;
   }
   .formControl {
     width: 100%;
@@ -231,6 +237,7 @@
 
   nav {
     height: 7vh;
+    min-height: 50px;
     width: 100%;
     position: sticky;
     top: 0;
@@ -254,6 +261,7 @@
   /* ------------------------------ intro ------------*/
   .introText h1 {
     font-size: 2.8rem;
+    font-weight: lighter;
   }
   .introText strong{
     font-size: 1.02rem;
@@ -302,6 +310,7 @@
   }
   .pbMainHeader h2 {
     font-size: 2.5rem;
+    font-weight: lighter;
   }
   .pbMainHeader strong{
     font-size: 1.02rem;
@@ -357,6 +366,7 @@
   .pamHeader h2 {
     font-size: 2.5rem;
     text-align: center;
+    font-weight: lighter;
   }
   .pamHeader strong{
     font-size: 1.02rem;
@@ -390,6 +400,7 @@
   }
   .Ctitle h3 {
     font-size: 2.5rem;
+    font-weight: lighter;
   }
   .Ctitle strong{
     font-size: 1.02rem;

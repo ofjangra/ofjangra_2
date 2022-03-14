@@ -18,10 +18,7 @@
   font-family: QuestrialRegular;
   src: url("./fonts/Questrial/Questrial-Regular.ttf");
 }
-/* @font-face {
-  font-family: dmSansRegular;
-  src: url("./fonts/Questrial/Questrial-Regular.ttf");
-} */
+
 
 .backFixed {
   height: 100vh;
@@ -76,7 +73,6 @@
   font-family: QuestrialRegular;
   font-size: 4.2rem;
 }
-
 /*---------------------------------------------------------- About -------------------------------------------------*/
 .aboutMain {
   height: 100vh;
@@ -94,6 +90,7 @@
   font-family: QuestrialRegular;
   font-weight: bold;
 }
+
 .aboutContainer {
   height: 80%;
   width: 100%;
@@ -133,7 +130,7 @@
 }
 
 .aboutText p {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   line-height: 1.5rem;
 }
 
@@ -142,11 +139,12 @@
   width: 180px;
   border: none;
   background-color: var(--primary-btn);
-  border-radius: 4px;
+  border-radius: 2px;
   cursor: pointer;
   font-family: dmSansRegular;
   font-size: 1rem;
   color: #000000;
+  font-weight: bold;
 }
 .portfolioAMain {
   width: 100%;
@@ -194,7 +192,7 @@
   margin: auto;
 }
 .iconCover img {
-  height: 60%;
+  height: 50%;
   width: auto;
   object-fit: cover;
 }

@@ -1,5 +1,6 @@
 nav {
   height: 50vh;
+  min-height: 380px;
   width: auto;
   display: flex;
   align-items: center;
