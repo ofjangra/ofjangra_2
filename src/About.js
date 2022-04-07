@@ -16,10 +16,10 @@ const About = () => {
   
             <p>
               Hi, I am Naresh Jangra. I am a front-end developer based in Haryana.
-              I am proficient in a lot of tools and technologies, some of them  are mentioned 
-              in the tech-stack. I'm a developer but I also focus heavily
-              on design. My motive is always not only to create something, but to create something 
-              with simple and sleek design. I'm currently working on some personal projects.
+              From almost three years, I've been learning and practicing web technologies.
+              Today I am proficient in a bunch of tools and technologies like: 
+              Javascript, ReactJS, Redux, Webpack, SEO, Git, HTML5, CSS etc.
+              I keep learning continuously and thus adding more skills in my skillset.
             </p>
             <div className="aboutContactBtn">
               <Link to = "contact" smooth= {true} duration= {1000}>
