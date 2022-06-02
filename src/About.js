@@ -16,7 +16,7 @@ const About = () => {
   
             <p>
               Hi, I am Naresh Jangra. I am a front-end developer based in Haryana.
-              From almost three years, I've been learning and practicing web technologies.
+              For almost three years, I've been learning and practicing web technologies.
               Today I am proficient in a bunch of tools and technologies like: 
               Javascript, ReactJS, Redux, Webpack, SEO, Git, HTML5, CSS etc.
               I keep learning continuously and thus adding more skills in my skillset.
